@@ -16,8 +16,8 @@
 ### Additional information
 
 * Extra route is added to render `/login` page: [AppRoot.js](https://github.com/illiakovalenko/headless-proxy-authentication/blob/master/react-app/src/AppRoot.js#L38)
-* API Mocks are defined in `/node-headless-ssr-proxy/src/mocks`
-* `Home`, `Styleguide` and `Login` pages ONLY are mocked
+* API Mocks are defined in [`/node-headless-ssr-proxy/src/mocks`](https://github.com/illiakovalenko/headless-proxy-authentication/blob/master/node-headless-ssr-proxy/src/mocks/handlers.ts)
+* `Home`, `Styleguide` and `Login` [pages](https://github.com/illiakovalenko/headless-proxy-authentication/tree/master/node-headless-ssr-proxy/src/mocks/pages) ONLY are mocked
 * Authentication error handling is added [here](https://github.com/illiakovalenko/headless-proxy-authentication/blob/master/node-headless-ssr-proxy/src/config.ts#L117-L122), `location` header handles the redirect
 
 ### Steps to reproduce
