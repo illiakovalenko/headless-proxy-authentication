@@ -1,0 +1,513 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "site": { "name": "react-app" },
+      "pageState": "normal",
+      "language": "en",
+      "itemPath": "/styleguide"
+    },
+    "route": {
+      "name": "styleguide",
+      "displayName": "styleguide",
+      "fields": { "pageTitle": { "value": "Styleguide | Sitecore JSS" } },
+      "databaseName": "master",
+      "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+      "itemId": "9a582c91-eb24-5047-b542-5de72df48c08",
+      "itemLanguage": "en",
+      "itemVersion": 1,
+      "layoutId": "947c480d-e4ec-5196-b998-487751d3d5d4",
+      "templateId": "9f6ba579-8777-5e10-906c-318d4f262b95",
+      "templateName": "ReactApp-App Route",
+      "placeholders": {
+        "ReactApp-jss-main": [
+          {
+            "uid": "18cd0167-e153-5eab-a4cd-331a3e056389",
+            "componentName": "ContentBlock",
+            "dataSource": "{26842625-590D-53BC-82E0-009CA6BC710E}",
+            "fields": {
+              "heading": { "value": "JSS Styleguide" },
+              "content": {
+                "value": "<p>This is a live set of examples of how to use JSS. For more information on using JSS, please see <a href=\"https://jss.sitecore.com\" target=\"_blank\" rel=\"noopener noreferrer\">the documentation</a>.</p>\n<p>The content and layout of this page is defined in <code>/data/routes/styleguide/en.yml</code></p>\n"
+              }
+            }
+          },
+          {
+            "uid": "fa9f9abf-dfea-5b39-8b66-d38d8c859314",
+            "componentName": "Styleguide-Layout",
+            "dataSource": "",
+            "placeholders": {
+              "ReactApp-jss-styleguide-layout": [
+                {
+                  "uid": "ac9a385f-61b6-5b3c-862b-c622c7e7896f",
+                  "componentName": "Styleguide-Section",
+                  "dataSource": "{01ED56EB-F8BD-5B2A-929B-525C1796D216}",
+                  "fields": { "heading": { "value": "Content Data" } },
+                  "placeholders": {
+                    "ReactApp-jss-styleguide-section": [
+                      {
+                        "uid": "edabad65-7c06-5a60-8128-3ea49312b6ce",
+                        "componentName": "Styleguide-FieldUsage-Text",
+                        "dataSource": "{BD2A5D6E-2C6E-54E3-9816-FA9220AA8A03}",
+                        "fields": {
+                          "sample": {
+                            "value": "This is a sample text field. <mark>HTML is encoded.</mark> In Sitecore, editors will see a <input type=\"text\">."
+                          },
+                          "sample2": {
+                            "value": "This is another sample text field using rendering options. <mark>HTML supported with encode=false.</mark> Cannot edit because editable=false."
+                          },
+                          "heading": { "value": "Single-Line Text" },
+                          "description": { "value": "" }
+                        }
+                      },
+                      {
+                        "uid": "1a87b09d-620b-59e9-95ad-ce1c62ca6313",
+                        "componentName": "Styleguide-FieldUsage-Text",
+                        "dataSource": "{96842042-8B17-56B2-9E2F-9CF02403DABD}",
+                        "fields": {
+                          "sample": {
+                            "value": "This is a sample multi-line text field. <mark>HTML is encoded.</mark> In Sitecore, editors will see a textarea."
+                          },
+                          "sample2": {
+                            "value": "This is another sample multi-line text field using rendering options. <mark>HTML supported with encode=false.</mark>"
+                          },
+                          "heading": { "value": "Multi-Line Text" },
+                          "description": {
+                            "value": "<small>Multi-line text tells Sitecore to use a <code>textarea</code> for editing; consumption in JSS is the same as single-line text.</small>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "d5cb8e9c-4dd6-5333-8912-9cae01806d63",
+                        "componentName": "Styleguide-FieldUsage-RichText",
+                        "dataSource": "{4FE80965-CBBA-57FC-8ED6-83540EB4F4B4}",
+                        "fields": {
+                          "sample": {
+                            "value": "<p>This is a sample rich text field. <mark>HTML is always supported.</mark> In Sitecore, editors will see a WYSIWYG editor for these fields.</p>"
+                          },
+                          "sample2": {
+                            "value": "<p>Another sample rich text field, using options. Keep markup entered in rich text fields as simple as possible - ideally bare tags only (no classes). Adding a wrapping class can help with styling within rich text blocks.</p>\n<marquee>But you can use any valid HTML in a rich text field!</marquee>\n"
+                          },
+                          "heading": { "value": "Rich Text" },
+                          "description": { "value": "" }
+                        }
+                      },
+                      {
+                        "uid": "27928000-d130-5031-b5ed-692cea392b5a",
+                        "componentName": "Styleguide-FieldUsage-Image",
+                        "dataSource": "{5DDAA8D9-7197-54B8-A654-93D0BB691D37}",
+                        "fields": {
+                          "sample1": {
+                            "value": {
+                              "src": "https://xmcloudcm.localhost/-/media/react-app/data/media/img/sc_logo.png?iar=0&hash=8561B58A4AF7AEFE326ACE4F2CC92B7C",
+                              "alt": "Sitecore Logo"
+                            }
+                          },
+                          "sample2": {
+                            "value": {
+                              "src": "https://xmcloudcm.localhost/-/media/react-app/data/media/img/jss_logo.png?iar=0&hash=DCC0A36C478884C31B137FDA41BB2F9F",
+                              "alt": "Sitecore JSS Logo"
+                            }
+                          },
+                          "heading": { "value": "Image" },
+                          "description": { "value": "" }
+                        }
+                      },
+                      {
+                        "uid": "7a858cee-cc09-596a-8174-76759e259bd5",
+                        "componentName": "Styleguide-FieldUsage-File",
+                        "dataSource": "{E567295B-51D8-5517-A50F-1863C23BC517}",
+                        "fields": {
+                          "file": {
+                            "value": {
+                              "src": "https://xmcloudcm.localhost/-/media/react-app/data/media/files/jss.pdf",
+                              "name": "jss",
+                              "displayName": "jss",
+                              "title": "Example File",
+                              "keywords": "",
+                              "description": "This data will be added to the Sitecore Media Library on import",
+                              "extension": "pdf",
+                              "mimeType": "application/pdf",
+                              "size": "156897"
+                            }
+                          },
+                          "heading": { "value": "File" },
+                          "description": {
+                            "value": "<small>Note: Sitecore does not support inline editing of File fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.</small>\n"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "310fdaf4-3aad-58f7-9b07-7a1f088390c8",
+                        "componentName": "Styleguide-FieldUsage-Number",
+                        "dataSource": "{BFD4E887-9037-57C3-A51C-50655B65E86B}",
+                        "fields": {
+                          "sample": { "value": 1.21 },
+                          "heading": { "value": "Number" },
+                          "description": {
+                            "value": "<small>Number tells Sitecore to use a number entry for editing.</small>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "6195e5ee-1f58-589a-83e5-7007e0a27115",
+                        "componentName": "Styleguide-FieldUsage-Checkbox",
+                        "dataSource": "{A4DDBAD4-460A-54AD-8FD3-4D4BB04F2F18}",
+                        "fields": {
+                          "checkbox": { "value": true },
+                          "checkbox2": { "value": false },
+                          "heading": { "value": "Checkbox" },
+                          "description": {
+                            "value": "<small>Note: Sitecore does not support inline editing of Checkbox fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.</small>\n"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "4c8ce825-2e9e-5b3b-ac69-d9c67762571b",
+                        "componentName": "Styleguide-FieldUsage-Date",
+                        "dataSource": "{76939059-01B9-5B99-9BBC-8B84FCCD3D4F}",
+                        "fields": {
+                          "date": { "value": "2012-05-04T00:00:00Z" },
+                          "dateTime": { "value": "2018-03-14T15:00:00Z" },
+                          "heading": { "value": "Date" },
+                          "description": {
+                            "value": "<p><small>Both <code>Date</code> and <code>DateTime</code> field types are available. Choosing <code>DateTime</code> will make Sitecore show editing UI for time; both types store complete date and time values internally. Date values in JSS are formatted using <a href=\"https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations\" target=\"_blank\">ISO 8601 formatted strings</a>, for example <code>2012-04-23T18:25:43.511Z</code>.</small></p>\n<div class=\"alert alert-warning\"><small>Note: this is a JavaScript date format (e.g. <code>new Date().toISOString()</code>), and is different from how Sitecore stores date field values internally. Sitecore-formatted dates will not work.</small></div>\n"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "499833dc-8ad0-5d19-bb81-e88467219b94",
+                        "componentName": "Styleguide-FieldUsage-Link",
+                        "dataSource": "{24E08127-DB55-54E3-919B-4093F4D9D6F7}",
+                        "fields": {
+                          "externalLink": {
+                            "value": {
+                              "href": "https://www.sitecore.com",
+                              "linktype": "external",
+                              "text": "Link to Sitecore",
+                              "url": "https://www.sitecore.com"
+                            }
+                          },
+                          "internalLink": {
+                            "value": {
+                              "href": "/",
+                              "id": "{00D060F7-5E09-5719-BAE1-FFA6E33C4AE8}",
+                              "linktype": "internal"
+                            }
+                          },
+                          "emailLink": {
+                            "value": {
+                              "href": "mailto:foo@bar.com",
+                              "linktype": "mailto",
+                              "text": "Send an Email",
+                              "url": "mailto:foo@bar.com"
+                            }
+                          },
+                          "paramsLink": {
+                            "value": {
+                              "href": "https://dev.sitecore.net",
+                              "class": "font-weight-bold",
+                              "target": "_blank",
+                              "title": "<a> title attribute",
+                              "linktype": "external",
+                              "text": "Sitecore Dev Site",
+                              "url": "https://dev.sitecore.net"
+                            }
+                          },
+                          "heading": { "value": "General Link" },
+                          "description": {
+                            "value": "<p>A <em>General Link</em> is a field that represents an <code>&lt;a&gt;</code> tag.</p>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "a9f3aec1-f42f-5b3f-876e-ba5da0875ae0",
+                        "componentName": "Styleguide-FieldUsage-ItemLink",
+                        "dataSource": "{DFAA49DE-9F80-5A01-852F-7A455A21631D}",
+                        "fields": {
+                          "sharedItemLink": {
+                            "id": "2a08aa20-af7b-57eb-aab7-f6c587520d82",
+                            "url": "/Content/Styleguide/ItemLinkField/Item1",
+                            "name": "Item1",
+                            "displayName": "Styleguide Item Link Item 1 (Shared)",
+                            "fields": {
+                              "textField": { "value": "ItemLink Demo (Shared) Item 1 Text Field" }
+                            }
+                          },
+                          "localItemLink": {
+                            "id": "6a1e3335-e80a-563c-98b4-3764bfabf426",
+                            "url": "/styleguide/Page-Components/styleguide-ReactApp-jss-styleguide-sF103A498B62FE181F6FBD277069831B61C6188DDED7DC63C03A8FD5E4E288F01/styleguide-ReactApp-jss-styleguide-s7EF58596A07ECB2C8F12314FDF6B2D6B1145EA893C5C0DB15321D45C884FAD43",
+                            "name": "styleguide-ReactApp-jss-styleguide-s7EF58596A07ECB2C8F12314FDF6B2D6B1145EA893C5C0DB15321D45C884FAD43",
+                            "displayName": "Styleguide-FieldUsage-ItemLink-10-item-0",
+                            "fields": { "textField": { "value": "Referenced item textField" } }
+                          },
+                          "heading": { "value": "Item Link" },
+                          "description": {
+                            "value": "<p>\n  <small>\n    Item Links are a way to reference another content item to use data from it.\n    Referenced items may be shared.\n    To reference multiple content items, use a <em>Content List</em> field.<br />\n    <strong>Note:</strong> Sitecore does not support inline editing of Item Link fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.\n  </small>\n</p>\n"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "cbcdaad8-98d8-57fc-90e7-42d4c525277f",
+                        "componentName": "Styleguide-FieldUsage-ContentList",
+                        "dataSource": "{F11E78B3-590F-5502-A626-9D00454CC54A}",
+                        "fields": {
+                          "sharedContentList": [
+                            {
+                              "id": "6b63af7a-a6f3-50ae-b826-4de3fb64ed67",
+                              "url": "/Content/Styleguide/ContentListField/Item1",
+                              "name": "Item1",
+                              "displayName": "Styleguide Content List Item 1 (Shared)",
+                              "fields": {
+                                "textField": {
+                                  "value": "ContentList Demo (Shared) Item 1 Text Field"
+                                }
+                              }
+                            },
+                            {
+                              "id": "84857a00-be4b-5852-bab3-cd783be121b7",
+                              "url": "/Content/Styleguide/ContentListField/Item2",
+                              "name": "Item2",
+                              "displayName": "Styleguide Content List Item 2 (Shared)",
+                              "fields": {
+                                "textField": {
+                                  "value": "ContentList Demo (Shared) Item 2 Text Field"
+                                }
+                              }
+                            }
+                          ],
+                          "localContentList": [
+                            {
+                              "id": "f619b20b-a0e6-595b-8d53-9eab20b80091",
+                              "url": "/styleguide/Page-Components/styleguide-ReactApp-jss-styleguide-s014652469B8ADA10696257F2269B8B4E9269288143919F6C6463A736BA060482/styleguide-ReactApp-jss-styleguide-s721C256399792512B08DC5F5953B5598ED3308CE03853432A119A9B018A49F06",
+                              "name": "styleguide-ReactApp-jss-styleguide-s721C256399792512B08DC5F5953B5598ED3308CE03853432A119A9B018A49F06",
+                              "displayName": "Styleguide-FieldUsage-ContentList-11-item-0",
+                              "fields": { "textField": { "value": "Hello World Item 1" } }
+                            },
+                            {
+                              "id": "18cfff50-bb18-57db-9034-3094364854ae",
+                              "url": "/styleguide/Page-Components/styleguide-ReactApp-jss-styleguide-s014652469B8ADA10696257F2269B8B4E9269288143919F6C6463A736BA060482/styleguide-ReactApp-jss-styleguide-sFD210B59959B52FB3A11155E31E7724C08D2C217CF6AF8673A8A688EB79DE286",
+                              "name": "styleguide-ReactApp-jss-styleguide-sFD210B59959B52FB3A11155E31E7724C08D2C217CF6AF8673A8A688EB79DE286",
+                              "displayName": "Styleguide-FieldUsage-ContentList-11-item-1",
+                              "fields": { "textField": { "value": "Hello World Item 2" } }
+                            }
+                          ],
+                          "heading": { "value": "Content List" },
+                          "description": {
+                            "value": "<p>\n  <small>\n    Content Lists are a way to reference zero or more other content items.\n    Referenced items may be shared.\n    To reference a single content item, use an <em>Item Link</em> field.<br />\n    <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.\n  </small>\n</p>\n"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "d5d05948-e1c8-516e-afb3-ba68fabdbec9",
+                        "componentName": "Styleguide-FieldUsage-Custom",
+                        "dataSource": "{FC0AEDB1-26A2-5058-A516-2D0F19F27AC1}",
+                        "fields": {
+                          "customIntField": { "value": 31337 },
+                          "heading": { "value": "Custom Fields" },
+                          "description": {
+                            "value": "<p>\n  <small>\n    Any Sitecore field type can be consumed by JSS.\n    In this sample we consume the <em>Integer</em> field type.<br />\n    <strong>Note:</strong> For field types with complex data, custom <code>FieldSerializer</code>s may need to be implemented on the Sitecore side.\n  </small>\n</p>\n"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "uid": "cd89c559-42b8-516f-b7cc-ac48df2e8db2",
+                  "componentName": "Styleguide-Section",
+                  "dataSource": "{34756440-1C8D-5BAD-8FFC-792D4FB963F0}",
+                  "fields": { "heading": { "value": "Layout Patterns" } },
+                  "placeholders": {
+                    "ReactApp-jss-styleguide-section": [
+                      {
+                        "uid": "2739a1b5-b8c6-5da1-b633-241df07bd801",
+                        "componentName": "Styleguide-Layout-Reuse",
+                        "dataSource": "{C065FB4F-4F6A-59BC-BB7B-E31868C6EE25}",
+                        "fields": {
+                          "heading": { "value": "Reusing Content" },
+                          "description": {
+                            "value": "<p>JSS provides powerful options to reuse content, whether it's sharing a common piece of text across pages or sketching out a site with repeating <em>lorem ipsum</em> content.</p>"
+                          }
+                        },
+                        "placeholders": {
+                          "ReactApp-jss-reuse-example": [
+                            {
+                              "uid": "ee2da4c0-efd1-5918-b07e-2fd6fa5efd0c",
+                              "componentName": "ContentBlock",
+                              "dataSource": "{8A9E6F3B-0C09-59B6-9325-C3A9A10BCCA6}",
+                              "fields": {
+                                "heading": { "value": "" },
+                                "content": {
+                                  "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque felis mauris, pretium id neque vitae, vulputate pellentesque tortor. Mauris hendrerit dolor et ipsum lobortis bibendum non finibus neque. Morbi volutpat aliquam magna id posuere. Duis commodo cursus dui, nec interdum velit congue nec. Aliquam erat volutpat. Aliquam facilisis, sapien quis fringilla tincidunt, magna nulla feugiat neque, a consectetur arcu orci eu augue.</p>"
+                                }
+                              }
+                            },
+                            {
+                              "uid": "f1c8193e-8237-5cb7-a4c0-10a60e36d383",
+                              "componentName": "ContentBlock",
+                              "dataSource": "{8A9E6F3B-0C09-59B6-9325-C3A9A10BCCA6}",
+                              "fields": {
+                                "heading": { "value": "" },
+                                "content": {
+                                  "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque felis mauris, pretium id neque vitae, vulputate pellentesque tortor. Mauris hendrerit dolor et ipsum lobortis bibendum non finibus neque. Morbi volutpat aliquam magna id posuere. Duis commodo cursus dui, nec interdum velit congue nec. Aliquam erat volutpat. Aliquam facilisis, sapien quis fringilla tincidunt, magna nulla feugiat neque, a consectetur arcu orci eu augue.</p>"
+                                }
+                              }
+                            },
+                            {
+                              "uid": "307ec38b-0a03-5ec3-b7d9-c92654fb0e69",
+                              "componentName": "ContentBlock",
+                              "dataSource": "{2C8EF270-9B75-53BF-A9FD-F3C5E3E7F44A}",
+                              "fields": {
+                                "heading": { "value": "" },
+                                "content": {
+                                  "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque felis mauris, pretium id neque vitae, vulputate pellentesque tortor. Mauris hendrerit dolor et ipsum lobortis bibendum non finibus neque. Morbi volutpat aliquam magna id posuere. Duis commodo cursus dui, nec interdum velit congue nec. Aliquam erat volutpat. Aliquam facilisis, sapien quis fringilla tincidunt, magna nulla feugiat neque, a consectetur arcu orci eu augue.</p>"
+                                }
+                              }
+                            },
+                            {
+                              "uid": "2f48e26a-1dfd-5f1f-860c-b04998ca18ac",
+                              "componentName": "ContentBlock",
+                              "dataSource": "{65340C84-8527-5A1D-B4B6-7FE608AD8B08}",
+                              "fields": {
+                                "heading": { "value": "" },
+                                "content": {
+                                  "value": "<p>Mix and match reused and local content. Check out <code>/data/routes/styleguide/en.yml</code> to see how.</p>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "uid": "0b67d19b-d91c-505c-86c4-4dfba02eae79",
+                        "componentName": "Styleguide-Layout-Tabs",
+                        "dataSource": "{6FB7073E-2346-50F0-B783-5B0754ABBD6E}",
+                        "fields": {
+                          "heading": { "value": "Tabs" },
+                          "description": {
+                            "value": "<p>Creating hierarchical components like tabs is made simpler in JSS because it's easy to introspect the layout structure.</p>"
+                          }
+                        },
+                        "placeholders": {
+                          "ReactApp-jss-tabs": [
+                            {
+                              "uid": "f157d667-db7b-534b-a28a-c9b78f378a0c",
+                              "componentName": "Styleguide-Layout-Tabs-Tab",
+                              "dataSource": "{4A464997-5A1C-564A-813D-302B6072B1BF}",
+                              "fields": {
+                                "title": { "value": "Tab 1" },
+                                "content": { "value": "<p>Tab 1 contents!</p>" }
+                              }
+                            },
+                            {
+                              "uid": "3e0aca87-2f78-5db5-ae45-2e6e9df8cbed",
+                              "componentName": "Styleguide-Layout-Tabs-Tab",
+                              "dataSource": "{BC32A61F-6634-56D8-A3F0-575C9E44F058}",
+                              "fields": {
+                                "title": { "value": "Tab 2" },
+                                "content": { "value": "<p>Tab 2 contents!</p>" }
+                              }
+                            },
+                            {
+                              "uid": "eb680a89-5559-5261-b7d9-3fa01a4ca24f",
+                              "componentName": "Styleguide-Layout-Tabs-Tab",
+                              "dataSource": "{B1B04DB6-D2BB-5D55-93EE-39D3F7A53C4B}",
+                              "fields": {
+                                "title": { "value": "Tab 3" },
+                                "content": { "value": "<p>Tab 3 contents!</p>" }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "uid": "eb72fc85-3509-59a9-a788-60c075eebf6d",
+                  "componentName": "Styleguide-Section",
+                  "dataSource": "{6F11A64C-E6ED-5BCF-A392-93D022608C05}",
+                  "fields": { "heading": { "value": "Sitecore Patterns" } },
+                  "placeholders": {
+                    "ReactApp-jss-styleguide-section": [
+                      {
+                        "uid": "935ca20c-7ced-5067-882c-ebbe77b18200",
+                        "componentName": "Styleguide-SitecoreContext",
+                        "dataSource": "{7B0BBBCE-0424-5CD3-816A-24332100CF2F}",
+                        "fields": {
+                          "heading": { "value": "Sitecore Context" },
+                          "description": {
+                            "value": "<p><small>The Sitecore Context contains route-level data about the current context - for example, <code>pageState</code> enables conditionally executing code based on whether Sitecore is in Experience Editor or not.</small></p>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "48125d1e-af74-5381-b78c-a1de0c90a015",
+                        "componentName": "Styleguide-RouteFields",
+                        "dataSource": "{FF71C340-BD73-5297-94E9-0AFE7EC477BF}",
+                        "fields": {
+                          "heading": { "value": "Route-level Fields" },
+                          "description": {
+                            "value": "<p><small>Route-level content fields are defined on the <em>route</em> instead of on a <em>component</em>. This allows multiple components to share the field data on the same route - and querying is much easier on route level fields, making <em>custom route types</em> ideal for filterable/queryable data such as articles.</small></p>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "eeb74b22-266c-57d1-a07e-b62bdd12eaeb",
+                        "componentName": "Styleguide-ComponentParams",
+                        "dataSource": "{22A06954-94AB-53F7-807C-B57503EBD7CE}",
+                        "params": {
+                          "cssClass": "alert alert-success",
+                          "columns": "5",
+                          "useCallToAction": "true"
+                        },
+                        "fields": {
+                          "heading": { "value": "Component Params" },
+                          "description": {
+                            "value": "<p><small>Component params (also called Rendering Parameters) allow storing non-content parameters for a component. These params should be used for more technical options such as CSS class names or structural settings.</small></p>"
+                          }
+                        }
+                      },
+                      {
+                        "uid": "a0af6676-d7ee-513c-8d9f-5591ffe57559",
+                        "componentName": "Styleguide-Tracking",
+                        "dataSource": "{A33276D8-FBBF-5F5A-8A2E-EA782E8F591C}",
+                        "fields": {
+                          "heading": { "value": "Tracking" },
+                          "description": {
+                            "value": "<p><small>JSS supports tracking Sitecore analytics events from within apps. Give it a try with this handy interactive demo.</small></p>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "uid": "aa9abd98-a839-5178-99cd-b3abb5ade785",
+                  "componentName": "Styleguide-Section",
+                  "dataSource": "{59568392-E967-597E-8311-D8B72E848623}",
+                  "fields": { "heading": { "value": "Multilingual Patterns" } },
+                  "placeholders": {
+                    "ReactApp-jss-styleguide-section": [
+                      {
+                        "uid": "489a03a9-2b06-567a-8feb-11d5044f9980",
+                        "componentName": "Styleguide-Multilingual",
+                        "dataSource": "{C60CD58D-F360-5623-80FD-77300B433EA1}",
+                        "fields": {
+                          "sample": { "value": "This text can be translated in en.yml" },
+                          "heading": { "value": "Translation Patterns" },
+                          "description": { "value": "" }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

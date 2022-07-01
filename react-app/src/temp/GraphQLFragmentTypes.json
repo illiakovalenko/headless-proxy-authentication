@@ -1,0 +1,207 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "ItemField",
+        "possibleTypes": [
+          {
+            "name": "RichTextField"
+          },
+          {
+            "name": "NumberField"
+          },
+          {
+            "name": "MultilistField"
+          },
+          {
+            "name": "LookupField"
+          },
+          {
+            "name": "LinkField"
+          },
+          {
+            "name": "TextField"
+          },
+          {
+            "name": "IntegerField"
+          },
+          {
+            "name": "ImageField"
+          },
+          {
+            "name": "DateField"
+          },
+          {
+            "name": "CheckboxField"
+          },
+          {
+            "name": "NameValueListField"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Item",
+        "possibleTypes": [
+          {
+            "name": "UnknownItem"
+          },
+          {
+            "name": "StyleguideComponentParamsRenderingParameters"
+          },
+          {
+            "name": "C__StandardTemplate"
+          },
+          {
+            "name": "C__Route"
+          },
+          {
+            "name": "RenderEngineType"
+          },
+          {
+            "name": "ReactAppStyleguideTracking"
+          },
+          {
+            "name": "ReactAppStyleguideSitecoreContext"
+          },
+          {
+            "name": "ReactAppStyleguideSection"
+          },
+          {
+            "name": "ReactAppStyleguideRouteFields"
+          },
+          {
+            "name": "ReactAppStyleguideMultilingual"
+          },
+          {
+            "name": "ReactAppStyleguideLayoutTabsTab"
+          },
+          {
+            "name": "ReactAppStyleguideLayoutTabs"
+          },
+          {
+            "name": "ReactAppStyleguideLayoutReuse"
+          },
+          {
+            "name": "ReactAppStyleguideItemLinkItemTemplate"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageText"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageRichText"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageNumber"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageLink"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageItemLink"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageImage"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageFile"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageDate"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageCustom"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageContentList"
+          },
+          {
+            "name": "ReactAppStyleguideFieldUsageCheckbox"
+          },
+          {
+            "name": "ReactAppStyleguideExplanatoryComponent"
+          },
+          {
+            "name": "ReactAppStyleguideContentListItemTemplate"
+          },
+          {
+            "name": "ReactAppStyleguideComponentParams"
+          },
+          {
+            "name": "ReactAppGraphQLIntegratedDemo"
+          },
+          {
+            "name": "ReactAppGraphQLConnectedDemo"
+          },
+          {
+            "name": "ReactAppExampleCustomRouteType"
+          },
+          {
+            "name": "ReactAppContentBlock"
+          },
+          {
+            "name": "C__ReactAppAppRoute"
+          },
+          {
+            "name": "JsonRendering"
+          },
+          {
+            "name": "JavaScriptRendering"
+          },
+          {
+            "name": "JSSLayout"
+          },
+          {
+            "name": "App"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "RenderingOptions",
+        "possibleTypes": [
+          {
+            "name": "JsonRendering"
+          },
+          {
+            "name": "JavaScriptRendering"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Layout",
+        "possibleTypes": [
+          {
+            "name": "JSSLayout"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "ReactAppAppRoute",
+        "possibleTypes": [
+          {
+            "name": "ReactAppExampleCustomRouteType"
+          },
+          {
+            "name": "C__ReactAppAppRoute"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Caching",
+        "possibleTypes": [
+          {
+            "name": "JsonRendering"
+          },
+          {
+            "name": "JavaScriptRendering"
+          }
+        ]
+      }
+    ]
+  }
+}

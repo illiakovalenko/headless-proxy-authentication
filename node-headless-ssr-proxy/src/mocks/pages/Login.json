@@ -1,0 +1,25 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "site": { "name": "react-app" },
+      "pageState": "normal",
+      "language": "en",
+      "itemPath": "/login"
+    },
+    "route": {
+      "name": "login",
+      "displayName": "login",
+      "fields": {},
+      "databaseName": "master",
+      "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+      "itemId": "00d060f7-5e09-5719-bae1-ffa6e33c4ae8",
+      "itemLanguage": "en",
+      "itemVersion": 1,
+      "layoutId": "947c480d-e4ec-5196-b998-487751d3d5d4",
+      "templateId": "9f6ba579-8777-5e10-906c-318d4f262b95",
+      "templateName": "ReactApp-App Route",
+      "placeholders": {}
+    }
+  }
+}
